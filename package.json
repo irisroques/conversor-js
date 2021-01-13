@@ -1,0 +1,22 @@
+{
+  "name": "conversorjs",
+  "version": "1.0.0",
+  "description": "Aplicação básica em Javascript para conversão de grandezas físicas.  Parte da Semana Kubedev, código baseado no da semana mas alterado conforme aprendizado da linguagem. Deploy com docker e kubernetes.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/irisroques/conversor-js.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/irisroques/conversor-js/issues"
+  },
+  "homepage": "https://github.com/irisroques/conversor-js#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
