@@ -19,4 +19,10 @@ app.get('/celsius/:valor/kelvin', (req,res)=>{
     res.json({kelvin})
 });
 
+app.get('/kelvin/:valor/celsius', (req,res)=>{
+    const valor = req.params.valor;
+    const celsius = valor - 273.15;
+    res.json({kelvin})
+});
+
 app.listen(8080, () => console.log('Servidor rodando na porta 8080'));
